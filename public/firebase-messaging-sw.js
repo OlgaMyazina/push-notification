@@ -1,6 +1,6 @@
-//eslint-disable
-importScripts('https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js')
-importScripts('https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js')
+/* eslint-disable */
+importScripts('https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js') //eslint-disable-line
+importScripts('https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js') //eslint-disable-line
 
 // Initialize the Firebase app in the service worker by passing the generated config
 const firebaseConfig = {
